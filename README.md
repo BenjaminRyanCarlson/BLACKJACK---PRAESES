@@ -14,6 +14,6 @@ To run you will need:
 
 Javascript ES6
 VScode with LiveServer.
-Browser of Choice
+And Browser of Choice (CHROME).
 
 Open the folder in VScode. Right click the index.html file and select 'Open With Live Server'.
