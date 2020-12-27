@@ -125,6 +125,11 @@ function gameWin() {
 		document.getElementById('player-hand-value').innerHTML == 'BLACKJACK!'
 	) {
 		document.getElementById('outcome').innerHTML = 'DRAW';
+	} else if (
+		document.getElementById('dealer-hand-value').innerHTML == 'BUST!' &&
+		document.getElementById('player-hand-value').innerHTML == 'BUST!'
+	) {
+		document.getElementById('outcome').innerHTML = 'DRAW';
 	}
 }
 
